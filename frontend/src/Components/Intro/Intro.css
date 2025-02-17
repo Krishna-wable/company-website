@@ -1,0 +1,59 @@
+.Intro {
+    text-align: center;
+    background: #f9f9f9;
+    padding: -10px;
+}
+
+.banner {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+h2 {
+    font-size: 3rem;
+    color: #020304;
+    margin-top: 20px;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+
+.values, .services, .skills {
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.value-list, .service-list, .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.value-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.value-item h3 {
+    color: #0d1115;
+}
+
+
+.service-list span, .skill-list span {
+    background: #4b9fc1;
+    color: rgb(7, 5, 5);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
